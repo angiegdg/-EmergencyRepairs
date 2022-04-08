@@ -2,8 +2,12 @@
 Colors:
 - Backgrounds, buttons, bullets, icons - blue #5f4dee
 - Backgrounds, light button, light body text - light gray #f3f7fd
-- Headings text - black #333
+- Headings text - brown #501509
 - Body text - dark gray #555
+- Social media - #ebe4e3
+- Background light brown - #f2edec
+- Testimonials name -  #704432 
+- Fas fa-square - #707a0c
 ******************************************/
 
 
@@ -30,43 +34,43 @@ body, p {
 }
 
 h1 {
-	color: #333;
+	color: #501509;
 	font: 700 2.5rem/3.125rem "Open Sans", sans-serif;
 	letter-spacing: -0.2px;
 }
 
 h2 {
-	color: #333;
+	color: #501509;
 	font: 700 2rem/2.625rem "Open Sans", sans-serif;
 	letter-spacing: -0.2px;
 }
 
 h3 {
-	color: #333;
+	color: #501509;
 	font: 700 1.625rem/2.125rem "Open Sans", sans-serif;
 	letter-spacing: -0.2px;
 }
 
 h4 {
-	color: #333;
+	color: #501509;
 	font: 700 1.375rem/1.75rem "Open Sans", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 h5 {
-	color: #333;
+	color: #501509;
 	font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 h6 {
-	color: #333;
+	color: #501509;
 	font: 700 1rem/1.375rem "Open Sans", sans-serif;
 	letter-spacing: -0.1px;
 }
 
 .above-heading {
-	color: #5f4dee;
+	color: #707a0c;
 	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
 	text-align: center;
 }
@@ -115,15 +119,15 @@ a.white {
 }
 
 .blue {
-	color: #5f4dee;
+	color: #501509;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #501509;
 	border-radius: 2rem;
-	background-color: #5f4dee;
+	background-color: #501509;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
@@ -132,7 +136,7 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #501509;
 	text-decoration: none;
 }
 
@@ -157,17 +161,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #501509;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #501509;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #5f4dee;
+	background-color: #501509;
 	color: #fff;
 	text-decoration: none;
 }
@@ -175,10 +179,10 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #501509;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #501509;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -193,10 +197,10 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-	border: 0.125rem solid #5f4dee;
+	border: 0.125rem solid #501509;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #5f4dee;
+	color: #501509;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -351,9 +355,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #5f4dee;
+	border: 1px solid #501509;
 	border-radius: 1.5rem;
-	background-color: #5f4dee;
+	background-color: #501509;
 	color: #fff;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	cursor: pointer;
@@ -362,7 +366,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #5f4dee;
+	color: #501509;
 }
 
 /* Form Success And Error Message Formatting */
@@ -619,7 +623,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #5f4dee;
+	background-color: #bfa8a4;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
@@ -630,8 +634,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 4.4375rem;
-	height: 1.75rem;
+    width: 16.9375rem;
+	height: 8.75rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -647,7 +651,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #f7f5f5;
+	color: #501509;
 	opacity: 0.8;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -714,13 +718,14 @@ input[type='checkbox'] {
 	margin-top: 0.25rem;
 	margin-bottom: 1.375rem;
 	margin-left: 0.5rem;
-	border: 0.125rem solid #fff;
-	color: #fff;
+	border: 0.125rem solid #501509;
+	color: #501509;
 }
 
 .navbar-custom .nav-item .btn-outline-sm:hover {
 	background-color: #fff;
-	color: #5f4dee;
+	color: #501509;
+	border: 0.125rem solid #fff;
 }
 
 .navbar-custom .navbar-toggler {
@@ -752,7 +757,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #5f4dee;
+	background-color: #bfa8a4;
 }
 
 .header .header-content {
@@ -767,14 +772,14 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 1rem;
-	color: #fff;
+	color: #501509;
 	font-size: 2.5rem;
 	line-height: 3rem;
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #f3f7fd;
+	color: #501509;
 }
 
 .header .btn-solid-lg {
@@ -783,7 +788,7 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 	border-color: #f3f7fd;
 	background-color: #f3f7fd;
-	color: #5f4dee;
+	color: #501509;
 }
 
 .header .btn-solid-lg:hover {
@@ -865,7 +870,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 8rem;
 	padding-bottom: 8.125rem;
-	background-color: #f3f7fd;
+	background-color: #f2edec;
 }
 
 .tabs .h2-heading,
@@ -894,7 +899,7 @@ input[type='checkbox'] {
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
 	background: transparent;
-	color: #5f4dee;
+	color: #501509;
 }
 
 .tabs .nav-link .fas {
@@ -906,7 +911,7 @@ input[type='checkbox'] {
 }
 
 .tabs .list-unstyled .fas {
-	color: #5f4dee;
+	color: #707a0c;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -974,7 +979,7 @@ input[type='checkbox'] {
 	margin-bottom: 0.875rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #5f4dee;
+	background-color: #501509;
 	text-align: left;
 }
 
@@ -983,7 +988,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .fas {
-	color:#5f4dee;
+	color: #707a0c;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1007,7 +1012,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #5f4dee;
+	color: #501509;
 }
 /* end of signup Button */
 
@@ -1017,7 +1022,7 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #5f4dee;
+	color:  #501509;
 	opacity: 1;
 }
 
@@ -1053,7 +1058,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .fas {
-	color: #5f4dee;
+	color:  #707a0c;
 	font-size: 0.5rem;
 	line-height: 1.625rem;
 }
@@ -1069,7 +1074,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 6.75rem;
-	background-color: #f3f7fd;
+	background-color: #f2edec;
 	text-align: center;
 }
 
@@ -1112,7 +1117,7 @@ input[type='checkbox'] {
 	width: 4.75rem;
 	height: 4.75rem;
 	border-radius: 50%;
-	background: #5f4dee;
+	background: #501509;
 	animation: pulse-border 1500ms ease-out infinite;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1129,7 +1134,7 @@ input[type='checkbox'] {
 	width: 4.375rem;
 	height: 4.375rem;
 	border-radius: 50%;
-	background: #5f4dee;
+	background: #501509;
 	transition: all 200ms;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1286,7 +1291,7 @@ input[type='checkbox'] {
 }
 
 .slider-2 .testimonial-author {
-	color: #333;
+	color: #704432;
 }
 
 .slider-2 .swiper-button-prev,
@@ -1325,7 +1330,7 @@ input[type='checkbox'] {
 	margin-bottom: 3.5rem;
 	padding: 3.5rem 1rem 2.5rem 1rem;
 	border-radius: 0.5rem;
-	background-color: #f3f7fd;
+	background-color: #f2edec;
 }
 
 .form h2 {
@@ -1350,16 +1355,16 @@ input[type='checkbox'] {
 }
 
 .form .fa-stack .fa-stack-2x {
-	color: #5f4dee;
+	color: #501509;
 	transition: all 0.2s ease;
 }
 
 .form .fa-stack:hover .fa-stack-1x {
-	color: #5f4dee;
+	color: #501509;
 }
 
 .form .fa-stack:hover .fa-stack-2x {
-    color: #f3f7fd;
+    color: #ebe4e3;
 }
 
 
@@ -1374,7 +1379,7 @@ input[type='checkbox'] {
 .footer {
 	padding-top: 3rem;
 	padding-bottom: 0.5rem;
-	background-color: #5f4dee;
+	background-color: #bfa8a4;
 }
 
 .footer .footer-col {
@@ -1423,13 +1428,13 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 0.375rem;
-	background-color: #5f4dee;
+	background-color: #bfa8a4;
 	text-align: center;
 }
 
 .copyright .p-small {
 	padding-top: 1.375rem;
-	border-top: 1px solid #718ad1;
+	border-top: 1px solid #9a8269;
 	color: #f3f7fd;
 }
 
@@ -1451,13 +1456,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #4f3cda url("../images/up-arrow.png") no-repeat center 47%;
+	background: #501509 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #4332c5; 
+	background-color: #704432; 
 }
 
 
@@ -1714,7 +1719,7 @@ a:hover.back-to-top {
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
-		background-color: #5f4dee;
+		background-color: #bfa8a4;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -1821,7 +1826,7 @@ a:hover.back-to-top {
 	
 	.tabs .nav-link:hover,
 	.tabs .nav-link.active {
-		border-bottom: 2px solid #5f4dee;
+		border-bottom: 2px solid #501509;
 	}
 
 	.tabs .image-container {
